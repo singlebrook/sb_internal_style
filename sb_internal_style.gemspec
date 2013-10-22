@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = SbInternalStyle::VERSION
   spec.authors       = ["Leon Miller-Out"]
   spec.email         = ["leon@singlebrook.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Styling common to various SB internal apps}
+  spec.summary       = %q{Styling common to various SB internal apps}
   spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.license       = ""
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
