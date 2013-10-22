@@ -1,6 +1,6 @@
-# SbInternalStyle
+# Singlebrook Internal Styles
 
-TODO: Write a gem description
+Provides styles and fonts for internal Singlebrook apps.
 
 ## Installation
 
@@ -12,18 +12,12 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Add to your main SCSS file:
 
-    $ gem install sb_internal_style
+    @import 'sb_internal_style/main';
 
-## Usage
+Grab an application layout from the intranet and modify it as you like.
 
-TODO: Write usage instructions here
+## TODO
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Provide a style guide that tells devs what classes are available.
