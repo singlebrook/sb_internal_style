@@ -1,5 +1,5 @@
-@import '_colors';
-@import '_links';
+@import './_colors';
+@import './_links';
 
 
 @mixin body-typography {
@@ -198,37 +198,6 @@ select {
   -moz-box-shadow: 0px 0px 1px #aaa;
   -webkit-box-shadow:  0px 0px 1px #aaa;
   box-shadow:  0px 0px 1px #aaa;
-
-
-  &.user_sessions-new, &.user_sessions-create {
-    width:400px;
-    h2 { display:none; }
-    li { list-style-type: none; }
-    ul { margin:0; padding:1em; }
-    #header { display: none; }
-    #errorExplanation {
-      padding:0;
-      p { display:none; }
-    }
-    form {
-      font-size:1.3em;
-      text-align:center;
-      input {
-        font-size:1.1em;
-        margin: .65em auto;
-        width: 90%;
-        padding: .25em .5em;
-      }
-      label {
-        display:block;
-        text-align:right;
-      }
-    }
-    table {
-      width:90%;
-      margin:1em 0;
-    }
-  }
 }
 
 #flashes {
@@ -365,6 +334,13 @@ border: 1px solid #1dc3f5;
   clear: both;
 }
 
+/* red or green numbers to indicate negative or positive result */
+.ok, .good, .bad { font-weight:bold; }
+
+.good { color: $good_color; }
+.bad  { color: $bad_color;  }
+.ok   { color: $ok_color;   }
+
 form.compact {
   overflow: auto; /* Make the form contain its floating children */
 
@@ -444,36 +420,13 @@ a.cancel {
   padding-left: 8px;
 }
 
-#overhead_summary {
-  text-align:center;
-  padding:2em;
-  margin:1em auto;
-}
-
 .explanation {
   font-size: 0.9em;
   color: lighten($text_color, 18%);
 }
 
-#ticket_tips {
-  width: 400px;
-  color: lighten($text_color, 14%);
-}
-#billing_code_warning {
-  display: none;
-  clear: both;
-}
-
 .highlight {
   background-color: lighten($page_background_color, 20%);
-}
-
-.health_icons {
-  font-family: 'SinglebrookRounded-Web', georgia, serif;
-  color: lighten($text_color, 40%);
-  .ok, .good, .bad {
-    font-weight: normal;
-  }
 }
 
 .menu {
@@ -485,10 +438,6 @@ a.cancel {
   float: left;
   padding-right: 15px;
   width: 154px;
-}
-
-.ui-widget {
-  @include body-typography;
 }
 
 @media print {
