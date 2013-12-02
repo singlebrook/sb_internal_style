@@ -368,6 +368,15 @@ form.compact {
 
   input, select, img {
     float: left;
+
+    &[type='checkbox'] {
+      margin-top: 6px;
+    }
+  }
+
+  h3 {
+    clear: left;
+    float: left;
   }
 
   .field {
