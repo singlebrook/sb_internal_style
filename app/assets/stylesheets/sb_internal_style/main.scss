@@ -156,6 +156,9 @@ table.entitylist {
     background-color:white;
     text-align:right;
   }
+  > tbody > tr:nth-child(even) {
+    background-color: white;
+  }
 }
 table.compact {
   width: auto;
