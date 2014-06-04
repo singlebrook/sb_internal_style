@@ -181,6 +181,14 @@ td.center {
   height: 0;
   overflow: hidden; }
 
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
 
 input {
   padding: .25em;
