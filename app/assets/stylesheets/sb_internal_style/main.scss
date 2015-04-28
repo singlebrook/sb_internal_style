@@ -217,7 +217,7 @@ select {
   clear: both;
 }
 
-#flash_notice, #flash_error {
+#flash_notice, #flash_warning, #flash_error {
   padding: 5px 8px;
   margin: 10px 0;
   border-radius: 4px;
@@ -229,9 +229,16 @@ select {
   color: #6C6;
 }
 
+#flash_warning {
+  background-color: #ff8;
+  border: solid 1px #aa0;
+  color: #880;
+}
+
 #flash_error {
   background-color: #FCC;
-  border: solid 1px #C66; }
+  border: solid 1px #C66;
+}
 
 .warning {
   color: #c00;
