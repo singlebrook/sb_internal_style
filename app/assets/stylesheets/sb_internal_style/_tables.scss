@@ -1,0 +1,33 @@
+table.entitylist {
+  border-spacing: 0px;
+  width: 100%;
+  th, td {
+    padding: 8px 10px;
+  }
+  tr.sum td {
+    background-color:white;
+    text-align:right;
+  }
+  > tbody > tr:nth-child(even) {
+    background-color: white;
+  }
+}
+table.compact {
+  width: auto;
+  th, td {
+    padding: 4px;
+  }
+}
+
+th.numeric, td.numeric {
+  text-align: right;
+}
+
+table.center {
+  text-align:normal;
+  margin:0 auto;
+}
+
+td.center {
+  text-align:center;
+}

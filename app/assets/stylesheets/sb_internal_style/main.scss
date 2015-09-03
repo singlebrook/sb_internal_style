@@ -1,6 +1,6 @@
 @import './_colors';
 @import './_links';
-
+@import './_tables';
 
 @mixin body-typography {
   font-family: Arial, Verdana, Helvetica;
@@ -123,11 +123,6 @@ p {
 .center {
   text-align: center; }
 
-table.center {
-  text-align:normal;
-  margin:0 auto;
-}
-
 .left {
   text-align: left; }
 
@@ -144,36 +139,6 @@ table.center {
 
 .background_green { background: $green; }
 .background_red { background: #f00; }
-
-table.entitylist {
-  border-spacing: 0px;
-  width: 100%;
-  th, td {
-    padding: 8px 10px;
-  }
-  tr.sum td {
-    background-color:white;
-    text-align:right;
-  }
-  > tbody > tr:nth-child(even) {
-    background-color: white;
-  }
-}
-table.compact {
-  width: auto;
-  th, td {
-    padding: 4px;
-  }
-}
-
-th.numeric, td.numeric {
-  text-align: right;
-}
-
-td.center {
-  text-align:center;
-}
-
 
 .clear {
   clear: both;
