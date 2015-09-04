@@ -1,0 +1,71 @@
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'singlebrook_icons';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.icon-exclam { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x21;&nbsp;'); }
+.icon-uniFB04 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x22;&nbsp;'); }
+.icon-uniFB02 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x23;&nbsp;'); }
+.icon-dollar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x24;&nbsp;'); }
+.icon-uniFB03 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x25;&nbsp;'); }
+.icon-uniFB01 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x26;&nbsp;'); }
+.icon-emdash { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x27;&nbsp;'); }
+.icon-endash { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x28;&nbsp;'); }
+.icon-uni00B9 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x29;&nbsp;'); }
+.icon-uni00B2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2a;&nbsp;'); }
+.icon-uni00B3 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2b;&nbsp;'); }
+.icon-ordfeminine { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2c;&nbsp;'); }
+.icon-zero { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x30;&nbsp;'); }
+.icon-one { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x31;&nbsp;'); }
+.icon-two { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x32;&nbsp;'); }
+.icon-three { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x33;&nbsp;'); }
+.icon-four { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x34;&nbsp;'); }
+.icon-five { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x35;&nbsp;'); }
+.icon-six { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x36;&nbsp;'); }
+.icon-seven { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x37;&nbsp;'); }
+.icon-eight { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x38;&nbsp;'); }
+.icon-nine { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x39;&nbsp;'); }
+.icon-A { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x41;&nbsp;'); }
+.icon-B { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x42;&nbsp;'); }
+.icon-C { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x43;&nbsp;'); }
+.icon-D { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x44;&nbsp;'); }
+.icon-E { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x45;&nbsp;'); }
+.icon-F { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x46;&nbsp;'); }
+.icon-G { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x47;&nbsp;'); }
+.icon-H { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x48;&nbsp;'); }
+.icon-I { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x49;&nbsp;'); }
+.icon-J { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4a;&nbsp;'); }
+.icon-K { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4b;&nbsp;'); }
+.icon-L { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4c;&nbsp;'); }
+.icon-M { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4d;&nbsp;'); }
+.icon-N { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4e;&nbsp;'); }
+.icon-O { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4f;&nbsp;'); }
+.icon-P { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x50;&nbsp;'); }
+.icon-Q { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x51;&nbsp;'); }
+.icon-R { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x52;&nbsp;'); }
+.icon-S { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x53;&nbsp;'); }
+.icon-T { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x54;&nbsp;'); }
+.icon-a { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x61;&nbsp;'); }
+.icon-b { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x62;&nbsp;'); }
+.icon-c { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x63;&nbsp;'); }
+.icon-d { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x64;&nbsp;'); }
+.icon-e { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x65;&nbsp;'); }
+.icon-f { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x66;&nbsp;'); }
+.icon-g { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x67;&nbsp;'); }
+.icon-h { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x68;&nbsp;'); }
+.icon-i { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x69;&nbsp;'); }
+.icon-j { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x6a;&nbsp;'); }
+.icon-k { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x6b;&nbsp;'); }
+.icon-l { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x6c;&nbsp;'); }
+.icon-m { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x6d;&nbsp;'); }
+.icon-n { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x6e;&nbsp;'); }
+.icon-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x6f;&nbsp;'); }
+.icon-pig_720-4 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x70;&nbsp;'); }
+.icon-s { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x73;&nbsp;'); }

@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'singlebrook_icons';
+  src: font-url('singlebrook_icons.eot?85360527');
+  src: font-url('singlebrook_icons.eot?85360527#iefix') format('embedded-opentype'),
+       font-url('singlebrook_icons.woff?85360527') format('woff'),
+       font-url('singlebrook_icons.ttf?85360527') format('truetype'),
+       font-url('singlebrook_icons.svg?85360527#singlebrook_icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'singlebrook_icons';
+    src: font-url('singlebrook_icons.svg?85360527#singlebrook_icons') format('svg');
+  }
+}
+*/
+ 
+ %icon-base {
+  font-family: "singlebrook_icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+%icon-exclam:before { @extend %icon-base; content: '\21'; } /* '!' */
+%icon-uniFB04:before { @extend %icon-base; content: '\22'; } /* '&quot;' */
+%icon-uniFB02:before { @extend %icon-base; content: '\23'; } /* '#' */
+%icon-dollar:before { @extend %icon-base; content: '\24'; } /* '$' */
+%icon-uniFB03:before { @extend %icon-base; content: '\25'; } /* '%' */
+%icon-uniFB01:before { @extend %icon-base; content: '\26'; } /* '&amp;' */
+%icon-emdash:before { @extend %icon-base; content: '\27'; } /* ''' */
+%icon-endash:before { @extend %icon-base; content: '\28'; } /* '(' */
+%icon-uni00B9:before { @extend %icon-base; content: '\29'; } /* ')' */
+%icon-uni00B2:before { @extend %icon-base; content: '\2a'; } /* '*' */
+%icon-uni00B3:before { @extend %icon-base; content: '\2b'; } /* '+' */
+%icon-ordfeminine:before { @extend %icon-base; content: '\2c'; } /* ',' */
+%icon-zero:before { @extend %icon-base; content: '\30'; } /* '0' */
+%icon-one:before { @extend %icon-base; content: '\31'; } /* '1' */
+%icon-two:before { @extend %icon-base; content: '\32'; } /* '2' */
+%icon-three:before { @extend %icon-base; content: '\33'; } /* '3' */
+%icon-four:before { @extend %icon-base; content: '\34'; } /* '4' */
+%icon-five:before { @extend %icon-base; content: '\35'; } /* '5' */
+%icon-six:before { @extend %icon-base; content: '\36'; } /* '6' */
+%icon-seven:before { @extend %icon-base; content: '\37'; } /* '7' */
+%icon-eight:before { @extend %icon-base; content: '\38'; } /* '8' */
+%icon-nine:before { @extend %icon-base; content: '\39'; } /* '9' */
+%icon-A:before { @extend %icon-base; content: '\41'; } /* 'A' */
+%icon-B:before { @extend %icon-base; content: '\42'; } /* 'B' */
+%icon-C:before { @extend %icon-base; content: '\43'; } /* 'C' */
+%icon-D:before { @extend %icon-base; content: '\44'; } /* 'D' */
+%icon-E:before { @extend %icon-base; content: '\45'; } /* 'E' */
+%icon-F:before { @extend %icon-base; content: '\46'; } /* 'F' */
+%icon-G:before { @extend %icon-base; content: '\47'; } /* 'G' */
+%icon-H:before { @extend %icon-base; content: '\48'; } /* 'H' */
+%icon-I:before { @extend %icon-base; content: '\49'; } /* 'I' */
+%icon-J:before { @extend %icon-base; content: '\4a'; } /* 'J' */
+%icon-K:before { @extend %icon-base; content: '\4b'; } /* 'K' */
+%icon-L:before { @extend %icon-base; content: '\4c'; } /* 'L' */
+%icon-M:before { @extend %icon-base; content: '\4d'; } /* 'M' */
+%icon-N:before { @extend %icon-base; content: '\4e'; } /* 'N' */
+%icon-O:before { @extend %icon-base; content: '\4f'; } /* 'O' */
+%icon-P:before { @extend %icon-base; content: '\50'; } /* 'P' */
+%icon-Q:before { @extend %icon-base; content: '\51'; } /* 'Q' */
+%icon-R:before { @extend %icon-base; content: '\52'; } /* 'R' */
+%icon-S:before { @extend %icon-base; content: '\53'; } /* 'S' */
+%icon-T:before { @extend %icon-base; content: '\54'; } /* 'T' */
+%icon-a:before { @extend %icon-base; content: '\61'; } /* 'a' */
+%icon-b:before { @extend %icon-base; content: '\62'; } /* 'b' */
+%icon-c:before { @extend %icon-base; content: '\63'; } /* 'c' */
+%icon-d:before { @extend %icon-base; content: '\64'; } /* 'd' */
+%icon-e:before { @extend %icon-base; content: '\65'; } /* 'e' */
+%icon-f:before { @extend %icon-base; content: '\66'; } /* 'f' */
+%icon-g:before { @extend %icon-base; content: '\67'; } /* 'g' */
+%icon-h:before { @extend %icon-base; content: '\68'; } /* 'h' */
+%icon-i:before { @extend %icon-base; content: '\69'; } /* 'i' */
+%icon-j:before { @extend %icon-base; content: '\6a'; } /* 'j' */
+%icon-k:before { @extend %icon-base; content: '\6b'; } /* 'k' */
+%icon-l:before { @extend %icon-base; content: '\6c'; } /* 'l' */
+%icon-m:before { @extend %icon-base; content: '\6d'; } /* 'm' */
+%icon-n:before { @extend %icon-base; content: '\6e'; } /* 'n' */
+%icon-o:before { @extend %icon-base; content: '\6f'; } /* 'o' */
+%icon-pig_720-4:before { @extend %icon-base; content: '\70'; } /* 'p' */
+%icon-s:before { @extend %icon-base; content: '\73'; } /* 's' */
+
+.icon-exclam { @extend %icon-exclam; }
+.icon-uniFB04 { @extend %icon-uniFB04; }
+.icon-uniFB02 { @extend %icon-uniFB02; }
+.icon-dollar { @extend %icon-dollar; }
+.icon-uniFB03 { @extend %icon-uniFB03; }
+.icon-uniFB01 { @extend %icon-uniFB01; }
+.icon-emdash { @extend %icon-emdash; }
+.icon-endash { @extend %icon-endash; }
+.icon-uni00B9 { @extend %icon-uni00B9; }
+.icon-uni00B2 { @extend %icon-uni00B2; }
+.icon-uni00B3 { @extend %icon-uni00B3; }
+.icon-ordfeminine { @extend %icon-ordfeminine; }
+.icon-zero { @extend %icon-zero; }
+.icon-one { @extend %icon-one; }
+.icon-two { @extend %icon-two; }
+.icon-three { @extend %icon-three; }
+.icon-four { @extend %icon-four; }
+.icon-five { @extend %icon-five; }
+.icon-six { @extend %icon-six; }
+.icon-seven { @extend %icon-seven; }
+.icon-eight { @extend %icon-eight; }
+.icon-nine { @extend %icon-nine; }
+.icon-A { @extend %icon-A; }
+.icon-B { @extend %icon-B; }
+.icon-C { @extend %icon-C; }
+.icon-D { @extend %icon-D; }
+.icon-E { @extend %icon-E; }
+.icon-F { @extend %icon-F; }
+.icon-G { @extend %icon-G; }
+.icon-H { @extend %icon-H; }
+.icon-I { @extend %icon-I; }
+.icon-J { @extend %icon-J; }
+.icon-K { @extend %icon-K; }
+.icon-L { @extend %icon-L; }
+.icon-M { @extend %icon-M; }
+.icon-N { @extend %icon-N; }
+.icon-O { @extend %icon-O; }
+.icon-P { @extend %icon-P; }
+.icon-Q { @extend %icon-Q; }
+.icon-R { @extend %icon-R; }
+.icon-S { @extend %icon-S; }
+.icon-T { @extend %icon-T; }
+.icon-a { @extend %icon-a; }
+.icon-b { @extend %icon-b; }
+.icon-c { @extend %icon-c; }
+.icon-d { @extend %icon-d; }
+.icon-e { @extend %icon-e; }
+.icon-f { @extend %icon-f; }
+.icon-g { @extend %icon-g; }
+.icon-h { @extend %icon-h; }
+.icon-i { @extend %icon-i; }
+.icon-j { @extend %icon-j; }
+.icon-k { @extend %icon-k; }
+.icon-l { @extend %icon-l; }
+.icon-m { @extend %icon-m; }
+.icon-n { @extend %icon-n; }
+.icon-o { @extend %icon-o; }
+.icon-pig_720-4 { @extend %icon-pig_720-4; }
+.icon-s { @extend %icon-s; }
