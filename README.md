@@ -18,6 +18,13 @@ Add to your main SCSS file:
 
 Grab an application layout from the intranet and modify it as you like.
 
+## Updating font files
+
+- `fontello open`
+- make changes to font in browser
+- click Save Session
+- `fontello convert`
+
 ## TODO
 
 Provide a style guide that tells devs what classes are available.
