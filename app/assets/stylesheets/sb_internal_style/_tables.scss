@@ -20,6 +20,10 @@ table.compact {
   }
 }
 
+th {
+  color: $heading_color;
+}
+
 th.numeric, td.numeric {
   text-align: right;
 }
